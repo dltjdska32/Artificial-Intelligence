@@ -14,8 +14,8 @@ import os
 
 
 # 이미지 파일들이 있는 디렉토리 경로(xtrain, xtest)
-x_test_images_dir = "C:/Users/dltjd/Artificial Intelligence/clothData/test"
-x_train_image_dir = "C:/Users/dltjd/Artificial Intelligence/clothData/train"
+x_test_images_dir = "C:/Users/dltjd/Artificial-Intelligence/ai/final_assignment/cloth_ml/clothData/test"
+x_train_image_dir = "C:/Users/dltjd/Artificial-Intelligence/ai/final_assignment/cloth_ml/clothData/train"
 
 # 클래스 레이블 정의
 class_labels = {'white': 0, 'gray': 1, 'black': 2}

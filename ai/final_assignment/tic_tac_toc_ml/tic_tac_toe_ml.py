@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 def load_Iris(shuffle=False):   
     label={'true':0, 'false':1, 'x': 2, 'b': 3, 'o': 4}
 
-    data = np.loadtxt(r'C:\Users\dltjd\Artificial Intelligence\tic-tac-toe.csv', skiprows=1, delimiter=',',
+    data = np.loadtxt(r'C:\Users\dltjd\Artificial-Intelligence\ai\final_assignment\tic_tac_toc_ml\tic-tac-toe.csv', skiprows=1, delimiter=',',
                       converters={i: lambda name: label[name.decode()] for i in range(10)})
     #셔플이 트루라면 데이터를 섞는다.
     if shuffle:

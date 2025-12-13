@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 
 # 데이터에 csv파일 데이터를 불러온다. encoding을 통해 한글을 불러올수있게한다. 칼럼의 헤더는 7번라인
-data = pd.read_csv(r'C:\Users\dltjd\Artificial Intelligence\month_temp.csv', encoding = 'cp949', header=6)
+data = pd.read_csv(r'C:\Users\dltjd\Artificial Intelligence\month_temp\month_temp.csv', encoding = 'cp949', header=6)
 
 # csv파일의 년월 중 년도는 필요하지 않고 월만 필요하기 때문에 월의 값만 가지고온다.
 x_month = data['년월'].str.split("-").str[1].astype(float).values 
