@@ -43,10 +43,23 @@ Artificial-Intelligence/
 
 <div align="center">
   <img src="https://www.tensorflow.org/images/tf_logo_social.png" alt="TensorFlow" height="50">
+</div>
+
+<div align="center">
   <img src="https://keras.io/img/logo.png" alt="Keras" height="50">
+</div>
+
+<div align="center">
   <img src="https://numpy.org/images/logo.svg" alt="NumPy" height="50">
+</div>
+
+<div align="center">
   <img src="https://pandas.pydata.org/static/img/pandas_white.svg" alt="Pandas" height="50" style="background-color: white; padding: 5px;">
+</div>
+
+<div align="center">
   <img src="https://matplotlib.org/stable/_static/logo2_compressed.svg" alt="Matplotlib" height="50">
 </div>
+
 
 
